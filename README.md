@@ -1,3 +1,5 @@
+# --@stcgoal Auto Resize defined directly that saved in defined subfolder
+
 # Image Resizer
 
 Resize Image from the explorer menu.

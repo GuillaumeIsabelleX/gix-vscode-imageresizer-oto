@@ -1,5 +1,5 @@
 {
-    "name": "image-resizer",
+    "name": "gix-image-resizer-oto",
     "displayName": "Image Resizer - Resize from the menu",
     "description": "Resize PNG, JPEG or BMP images from the explorer menu.",
     "version": "0.1.0",
@@ -11,23 +11,23 @@
         "Other"
     ],
     "keywords": [
-		"image",
+        "image",
         "resize",
         "crop",
-		"edit",
-		"photo",
+        "edit",
+        "photo",
         "jpeg",
         "png",
         "bmp"
     ],
-	"icon": "images/imageresizer-icon.png",
-	"bugs": {
-		"url": "https://github.com/lukapetrovic/vscode-imageresizer/issues"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/lukapetrovic/vscode-imageresizer"
-	},
+    "icon": "images/imageresizer-icon.png",
+    "bugs": {
+        "url": "https://github.com/lukapetrovic/vscode-imageresizer/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/lukapetrovic/vscode-imageresizer"
+    },
     "activationEvents": [
         "onCommand:extension.resizeImage"
     ],
@@ -56,10 +56,10 @@
         "test": "npm run compile && node ./node_modules/vscode/bin/test"
     },
     "devDependencies": {
-        "typescript": "^2.5.3",
-        "vscode": "^1.1.5",
+        "@types/mocha": "^2.2.42",
         "@types/node": "^7.0.43",
-        "@types/mocha": "^2.2.42"
+        "typescript": "^2.9.2",
+        "vscode": "^1.1.5"
     },
     "dependencies": {
         "jimp": "^0.6.0"
